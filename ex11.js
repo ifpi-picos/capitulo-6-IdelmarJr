@@ -2,7 +2,7 @@
 function math() {
     let n = Math.floor(Math.random() * 101);
     return n;
-}
+};
 //Calculo para a adivinhação
 function calculo() {
     let num = math();
@@ -22,13 +22,13 @@ function calculo() {
                 console.log('Maior do que o número secreto!');
             } else {
                 console.log('Menor do que o número secreto!');
-            }
-        }
-    }
-}
+            };
+        };
+    };
+};
 //Saida de resultado
 function saidaDeresultado() {
     let saida = calculo();
     console.log(saida);
-}
-saidaDeresultado()
+};
+saidaDeresultado();

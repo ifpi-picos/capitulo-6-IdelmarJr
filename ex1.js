@@ -1,13 +1,13 @@
 //1ª - Dado de entrada.
 function entrada(){
     let nome = prompt('Digite seu nome: ');
-    return nome
-}
+    return nome;
+};
 //2ª - Dado de saida.
 function saida(){
-    let nome2 = entrada()
+    let nome2 = entrada();
     console.log(nome2);
-}
+};
 //saida()
 //3ª Manipulação de Strings.
 function Manipulacao (){
@@ -15,13 +15,13 @@ function Manipulacao (){
     let b1 = 'vindo';
     let saudacao = a1 + ' ' + b1;
     console.log(saudacao);
-}
+};
 //Manipulacao()
 //4ª Operações soma
 function soma(a, b){
     let resultado = a + b;
     console.log(resultado);
-}
+};
 //soma(1,2)
 //5ª operações logicas
 function logica(a,b){
@@ -31,6 +31,6 @@ function logica(a,b){
         console.log('Pelo menos a ou b é verdadeiro.');
     }else{
         console.log('Nem a e nem b é verdadeiro.');
-    }
-}
+    };
+};
 //logica(2,2)

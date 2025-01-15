@@ -2,21 +2,21 @@
 function entrada1(){
     let altura = parseFloat(prompt('Digite sua altura: '));
     return altura;
-}
+};
 function entrada2(){
     let peso = parseFloat(prompt('Digite seu peso: '));
     return peso;
-}
+};
 //Calculo IMC
 function imc(){
     let IMC1 = entrada1();
     let IMC2 = entrada2();
     let Imc = IMC2 / (IMC1 ** 2);
     return (Imc.toFixed(2));
-}
+};
 //Classificação
 function Classificacao(){
-    let clas = imc()
+    let clas = imc();
     for (let Classificacao = 0; Classificacao = true;) {
         if (clas < 18.5) {
             console.log(`Seu IMC é: ${clas}`);
@@ -42,14 +42,14 @@ function Classificacao(){
             clas >= 40;
             console.log(`Seu IMC é: ${clas}`);
             console.log('Obesidade grau III: IMC ≥ 40 kg/m²');
-        }
-    }
-}
+        };
+    };
+};
 //Saida
 function saida(){
     let saida1 = Classificacao();
     console.log(saida1);
-}
-saida()
+};
+saida();
 
 

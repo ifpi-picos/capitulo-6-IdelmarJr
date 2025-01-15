@@ -9,4 +9,4 @@ console.log(arr[1]); // exibe 'este é o segundo elemento'
 console.log(arr[arr.length - 1]); // exibe 'este é o segundo elemento'
 
 //Retorna o módulo, ou valor absoluto, de um número (|x|).
-Math.abs(x)
+Math.abs(x);

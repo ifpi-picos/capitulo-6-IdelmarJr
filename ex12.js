@@ -7,22 +7,22 @@ function entrada() {
     
     function soma() {
         return numero + numero2;
-    }
+    };
     
     function subtracao() {
         return numero - numero2;
-    }
+    };
     
     function multiplicacao() {
         return numero * numero2;
-    }
+    };
     
     function divisao() {
         if (numero2 === 0) {
             return 'Erro: Divisão por zero';
         }
         return numero / numero2;
-    }
+    };
     
     // Retorna a função correspondente à operação
     if (vari === '+') {
@@ -35,8 +35,8 @@ function entrada() {
         return divisao;
     } else {
         return 'Operação inválida';
-    }
-}
+    };
+};
 
 function test() {
     let operacao = entrada();  // Obtém a função de operação selecionada
@@ -44,13 +44,13 @@ function test() {
         return operacao();  // Executa a função retornada pela entrada
     } else {
         return operacao;  // Se for uma mensagem de erro (como 'Operação inválida')
-    }
-}
+    };
+};
 
 // Resultado
 function saida() {
     let resultado = test();  
     console.log(resultado);   
-}
+};
 
 saida();

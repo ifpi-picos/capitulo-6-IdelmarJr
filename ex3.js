@@ -10,7 +10,7 @@ function entradadenotas () {
 function calculo (index) {
     let resultado = index[0]+index[1]+index[2];
     let saidadenota = resultado / 3;
-    return saidadenota;
+    return (saidadenota.toFixed(2));
 }
 // Saída de dados
 function saida() {
